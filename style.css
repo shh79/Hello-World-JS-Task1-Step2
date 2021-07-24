@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(170, 167, 167);
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: gray;
+    padding: 2%;
+    align-items: center;
+    justify-items: center;
+    border-radius: 5px;
+}
+.banner button{
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: rgb(80, 79, 79);
+}
+.banner button:hover{
+    color: gray;
+    background-color: rgb(170, 167, 167);
+}
